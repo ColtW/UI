@@ -1,0 +1,9 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.pdb
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.SignupPage.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.Properties.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csprojResolveAssemblyReference.cache
