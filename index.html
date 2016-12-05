@@ -1,0 +1,202 @@
+<html>
+<body bgcolor='CCCCCC'>
+<div align='center'>
+&nbsp;<p>&nbsp;</p>
+<p><b><font size="5">The Login Page</font></b></p>
+<p>
+<img border="0" src="LoginPage.JPG" width="545" height="496"><br>
+&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="85%" id="AutoNumber1">
+  <tr>
+    <td width="100%"><font size="5">The log in button executes code that 1. 
+    checks the password database for a matching password according to the 
+    username, then 2. if a match, to apply the user's permission level ('PL') 
+    that is also stored in the the password database to determine if the user 
+    will see the Customer page (PL=1) for that customer, or the Employee page 
+    (PL=2) for that employee, or the Manager page (PL=3) (as understood now, 
+    there's just one manager).<br>
+    (if password not a match, to say try again).<br>
+    (for employees, the manager both a. enters their username and password in 
+    this password database, and b. assigns a PL of 2).<br>
+    The sign in button executes code that displays the appropriate page.<br>
+    For registered customers, the customerID is passed to the the customer page.<br>
+    For registered employees, the employeeID is passed to the the employee page.<br>
+    (there is only one type of employee page for now, set up as a garage 
+    operator page)<br>
+    The sign up button executes code that displays the Sign Up page</font><p>
+    <font size="5">button: Check Available Ground Floor Spaces<br>
+    ..button action sends a request to the garage's 'Ground Level' database.<br>
+    ..database response received and:<br>
+    if available:  message: A ground floor space is available at this time<br>
+    if Not available:  message: Sorry, no spaces are available at this 
+    time, please check again later, or please login as a registered customer to 
+    check the upper level spaces (if you are not registered, please sign up with 
+    us)</font></td>
+  </tr>
+</table>
+<a href='/vsprojects/TeamBWindowsFormLoginPage.zip'><h2>Download TeamBWindowsFormLoginPage.zip</h2></a>
+<hr><br>
+<b>
+<font size="5">The Sign Up Page</font></b><p>
+<img border="0" src="SignupPage.JPG" width="547" height="598"><br>
+&nbsp;</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="85%" id="AutoNumber2">
+  <tr>
+    <td width="100%"><font size="5">The sign up button executes code that 1. 
+    checks that the email address box has an @ symbol in it, and checks that the 
+    credit card box has 16 numbers in it, then if both check good, to 2. store 
+    the info in the customer database for that customer ID number (ex, a husband 
+    and wife could be using the same credit card, but be using park-a-lot 
+    reservations differently).</font><p><font size="5">After storing the info, 
+    the customer database will generate their membership number &lt;the customerID 
+    number + their first and last initials&gt; and store it back into the customer 
+    database, then, a message box will inform the customer what their membership 
+    number is, and will ask them to make a note of it.<br>
+    (useful for the customer to enter into the elevator console as one of either 
+    two numbers needed &lt;the other is their reservation number&gt; in the case where 
+    the license number is not recognized).<br>
+    <br>
+    and 3. if a license plate number is entered, to also store this license 
+    plate number in their record in the customer database.<br>
+    <br>
+    Employees do not use this page: their info is added to an employee database 
+    by the manager.</font><p><font size="5">Lastly, after the customer closes 
+    the above message box:<br>
+    1. the customerID is sent to an instance of the customer page.<br>
+    2. this signup form is closed, and<br>
+    3. the customer page is displayed</font></td>
+  </tr>
+</table>
+<a href='/vsprojects/TeamBWindowsFormSignupPage.zip'><h2>Download TeamBWindowsFormSignupPage.zip</h2></a>
+
+</div>
+<hr>
+<p align="center"><b><font size="5">The Customer Page</font></b></p>
+<p align="center"><img border="0" src="CustomerPageVer1.JPG" width="546" height="719"></p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="85%" id="AutoNumber3">
+    <tr>
+      <td width="100%"><font size="5">the customer page is mainly used to 
+      schedule reservations</font><p><font size="5">The customerID has been 
+      received from either the login page or the signup page, to be used by the 
+      reservations database for (as below) 1. available spaces, 2. viewing and 
+      modifying reservations, and used by both the reservations database and by 
+      Billing if the customer wants to make the date and times a monthly 
+      contract. (our reservations database will cover 6?, 12? months ahead)<br>
+      <br>
+      Use your license plate number on file? yes/no radio buttons:<br>
+      <br>
+      yes = associate the license plate number on file with the reservation.<br>
+      <br>
+      no = 1. make visible a hidden label that says: Enter the license plate 
+      number that you will use for this reservation<br>
+      2. make visible a hidden textbox for entering a temporary license plate 
+      number.<br>
+      3. associate this temporary license plate number with the reservation.<br>
+      [programmer: remember to delete this temporary association after the 
+      reservation is completed (like: after the system allows the vehicle to 
+      park and the vehicle parks)]<br>
+      <br>
+      This license plate number will be used for this reservation<br>
+      And -&gt; make visible a hidden label that shows this license plate number.<br>
+      <br>
+      Date, Beginning Time, and Ending Time of the reservation<br>
+      Submit button: sends a request to the reservations database to check 
+      availability of any space for the requested date and 'time duration'.<br>
+      <br>
+      if Not available: message: Sorry, a space is not available for the 
+      time duration for the requested date. Please check again later or go back 
+      to the login page to check if there is a ground floor space available<br>
+      <br>
+      if available: this date, start time, and end time are entered into the reservations database 
+      for this customer<br>
+      and a message: Please make a note: Your reservation confirmation number 
+      for this date and time is __1.__, and Your parking spot identifier number 
+      is __2.__. If you are done making reservations, click the button below to 
+      view your registrations, Thank You<br>
+      (note, this offers the customer a way to exit this form)<br>
+      <br>
+      [programmer: for 1: their customer ID number + date + time, for 2: send a 
+      request to the garage's Upper Level database to retrieve the ID of an 
+      available space &lt;and update the garage's Upper Level database that this 
+      space is reserved&gt;]<br>
+      <br>
+      Do you want to make this a monthly contract?<br>
+      check button checked = [programmer: set this up both with Billing and the 
+      Upper Level database]<br>
+      <br>
+      View and Modify your Reservations button: 1.sends a request to the 
+      reservations database to see if there is 'at least one' reservation for 
+      this customerID<br>
+      if no: message: You have no reservations at this time<br>
+      if yes: 1. the customerID is sent to an instance of the reservation page.<br>
+      2. this customer form is closed, and<br>
+      3. the reservation page is displayed that shows all reservations for that 
+      customer along with the ID number of each reservation.<br>
+&nbsp;</font></p>
+      <p><font size="5">*more work to do here: implementing 
+      plans in this customer page when the customer makes reservations (per our 
+      Project Statement) for:<br>
+      --contiguous/consecutive reservations<br>
+      --min of a 1 hr gap imposed<br>
+      --a max of 3 'outstanding' allowed reservations<br>
+      ('outstanding' meaning 'unpaid'? well, all reservations are unpaid until 
+      they get their monthly bill and pay it: I'll have to ask Mr Higgs about 
+      his definition of 'outstanding')</font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center"><b><font size="5">
+<a href="/vsprojects/TeamBWindowsFormCustomerPage.zip">Download TeamBWindowsFormCustomerPage.zip</a></font></b></p>
+<hr>
+<p align="center"><b><font size="5">The View Reservations Page</font></b></p>
+<p align="center"><img border="0" src="ViewReservationPage.JPG" width="547" height="546"></p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="85%" id="AutoNumber4">
+    <tr>
+      <td width="100%"><font size="5">This page is related to the specific 
+      customer.<br>
+      This page is also used to modify reservations.<br>
+      The customerID is received from the customer page.<br>
+      <br>
+      on page_load: sends a request to the reservations database, and 1. 
+      customer name is displayed in a text box (or label) and 2. info on all 
+      reservations (along with the reservation ID number) are received, to be 
+      shown in a 2nd text box (or label? whichever: it must 'expand' vertically 
+      to show multiple reservations)</font><p><font size="5">label: To extend or 
+      delete a reservation, enter the reservation ID number here<br>
+      text box and 2 radio buttons:<br>
+      1. Extend this reservation<br>
+      and a message: The reservation may be extended unlimited number of times 
+      if the extension is requested one-half hour prior to the scheduled 
+      expiration if only if there are available spaces for the desired period. 
+      Click OK to check the availability of an extension to this reservation.<br>
+      [programmer: then a request is sent to the reservations database to check 
+      the availability of this requested extension]<br>
+      if available: This reservation has been extended, see the new times in the 
+      reservation window:<br>
+      ..then the list box is reloaded<br>
+      if Not available: message: Sorry, this reservation cannot be extended<br>
+      <br>
+      2. Cancel this reservation<br>
+      and a message: This reservation has been canceled<br>
+      <br>
+      button: Return to Your Customer Page</font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center"><b><font size="5">
+<a href="/vsprojects/TeamBWindowsFormViewReservationPage.zip">Download TeamBWindowsFormViewReservationPage.zip</a></font></b></p>
+<hr>
+<p align="center"><font size="5">The Employee Page</font></p>
+<hr>
+<p align="center"><font size="5">The Manager Page</font></p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+<p align="center">&nbsp;</p>
+</body>
+</html>
