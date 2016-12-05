@@ -1,0 +1,9 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.pdb
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.LoginPage.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.Properties.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb

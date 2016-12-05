@@ -1,0 +1,9 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.CustomerPage.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.Properties.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csprojResolveAssemblyReference.cache
