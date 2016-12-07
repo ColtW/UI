@@ -7,3 +7,6 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
 C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb

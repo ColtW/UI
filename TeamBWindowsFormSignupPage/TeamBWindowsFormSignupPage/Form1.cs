@@ -21,5 +21,28 @@ namespace TeamBWindowsFormSignupPage
         {
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        public void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            UIdll.RegisteredCustomer informationUpdate = new UIdll.RegisteredCustomer();
+            informationUpdate.username = textBox1.Text;
+            informationUpdate.password = textBox2.Text;
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void button1_Click(object sender, EventArgs e)
+        {
+            // when button clicked this will save all of the text the EU has provided... Colin
+            UIdll.RegisteredCustomer informationUpdate = new UIdll.RegisteredCustomer();
+            informationUpdate.username = textBox1.Text;
+            informationUpdate.password = textBox2.Text;
+            //informationUpdate.email = textBox3.Text;
+            //informationUpdate.creditCardNumber = textBox4.Text;
+            //informationUpdate.plateNumber = textBox5.Text;
+        }
     }
 }

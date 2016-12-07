@@ -7,3 +7,16 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\T
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csproj.GenerateResource.Cache
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.LoginPage.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.Properties.Resources.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csproj.GenerateResource.Cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormSignupPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormSignupPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\UIdll.dll
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\UIdll.pdb

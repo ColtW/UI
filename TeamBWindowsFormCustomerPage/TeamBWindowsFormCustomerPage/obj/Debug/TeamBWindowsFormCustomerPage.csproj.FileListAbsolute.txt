@@ -7,3 +7,6 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPag
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
 C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
