@@ -1,0 +1,9 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.pdb
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.EmployeePage.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.Properties.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csprojResolveAssemblyReference.cache
