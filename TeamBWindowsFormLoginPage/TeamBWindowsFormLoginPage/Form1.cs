@@ -32,12 +32,6 @@ namespace TeamBWindowsFormLoginPage
 
             UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
             newPerson.MakeRegisteredCustomer();
-            //newPerson.username() = textBox1.Text;
-        }
-
-        public void textBox1_TextChanged(object sender, EventArgs e)
-        {
-          //  newPerson.username() = textBox1.Text;
         }
     }
 }
