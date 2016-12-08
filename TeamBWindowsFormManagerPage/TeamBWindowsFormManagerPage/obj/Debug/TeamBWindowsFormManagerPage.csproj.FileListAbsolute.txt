@@ -1,0 +1,9 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.pdb
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csprojResolveAssemblyReference.cache

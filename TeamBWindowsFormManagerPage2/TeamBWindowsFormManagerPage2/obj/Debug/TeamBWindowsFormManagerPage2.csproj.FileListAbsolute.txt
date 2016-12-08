@@ -1,0 +1,8 @@
+c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\bin\Debug\TeamBWindowsFormManagerPage2.exe.config
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\bin\Debug\TeamBWindowsFormManagerPage2.exe
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\bin\Debug\TeamBWindowsFormManagerPage2.pdb
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\obj\Debug\TeamBWindowsFormManagerPage2.Form1.resources
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\obj\Debug\TeamBWindowsFormManagerPage2.Properties.Resources.resources
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\obj\Debug\TeamBWindowsFormManagerPage2.csproj.GenerateResource.Cache
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\obj\Debug\TeamBWindowsFormManagerPage2.exe
+C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage2\TeamBWindowsFormManagerPage2\obj\Debug\TeamBWindowsFormManagerPage2.pdb
