@@ -10,3 +10,12 @@ C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormCustomerPag
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csprojResolveAssemblyReference.cache
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.CustomerPage.resources
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.Properties.Resources.resources
+C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csproj.GenerateResource.Cache

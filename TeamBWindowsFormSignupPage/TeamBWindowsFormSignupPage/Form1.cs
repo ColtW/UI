@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TeamBWindowsFormSignupPage;//added a reference to the form but I belive this needs have a reference
+                                 // to the UIdll  instead se we can use our classes in this form .SR
 
 namespace TeamBWindowsFormSignupPage
 {
     public partial class SignupPage : Form
     {
+        
+
         public SignupPage()
         {
             InitializeComponent();
@@ -27,6 +31,10 @@ namespace TeamBWindowsFormSignupPage
             UIdll.RegisteredCustomer informationUpdate = new UIdll.RegisteredCustomer();
             informationUpdate.username = textBox1.Text;
             informationUpdate.password = textBox2.Text;
+            
+
+          
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
