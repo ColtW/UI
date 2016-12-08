@@ -16,7 +16,7 @@ namespace TeamBWindowsFormSignupPage
 {
     public partial class SignupPage : Form
     {
-        List<int> guestList = new List<int>(50);
+        public List<int> guestList = new List<int>(50);
 
         public SignupPage()
         {
