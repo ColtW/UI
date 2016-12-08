@@ -24,7 +24,6 @@ namespace TeamBWindowsFormLoginPage
 
         public void button2_Click(object sender, EventArgs e)
         {
-
             TeamBWindowsFormSignupPage.SignupPage signup = new TeamBWindowsFormSignupPage.SignupPage();
             signup.Activate();
             signup.Visible = true;

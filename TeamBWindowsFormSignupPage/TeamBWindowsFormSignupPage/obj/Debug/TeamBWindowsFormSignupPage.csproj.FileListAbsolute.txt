@@ -13,3 +13,13 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignu
 C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
 C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
 C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\UIdll.dll
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\UIdll.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.SignupPage.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.Properties.Resources.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csproj.GenerateResource.Cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormLoginPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormLoginPage.pdb
