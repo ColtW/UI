@@ -49,8 +49,7 @@ namespace TeamBWindowsFormLoginPage
             guestSignup.Visible = true;
             this.Visible = false;
 
-            UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
-            //MessageBox.Show("Your username will be your name, and your password will be the last 4 digits of your CC");
+            UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer(); 
         }
     }
 }
