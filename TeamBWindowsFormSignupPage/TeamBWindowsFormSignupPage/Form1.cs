@@ -47,5 +47,6 @@ namespace TeamBWindowsFormSignupPage
             newCustomer.MakeCustomer();
 
         }
+
     }
 }
