@@ -16,7 +16,7 @@ namespace TeamBWindowsFormSignupPage
 {
     public partial class SignupPage : Form
     {
-        
+        List<int> guestList = new List<int>(50);
 
         public SignupPage()
         {
@@ -46,7 +46,45 @@ namespace TeamBWindowsFormSignupPage
 
             newCustomer.MakeCustomer();
 
+
+
+            if(checkBox1.Checked == true)
+            {
+                guestList.Add(1);
+            }
+
         }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                textBox3.Visible = false;
+                textBox5.Visible = false;
+                textBox6.Visible = false;
+                textBox7.Visible = false;
+                textBox8.Visible = false;
+                label3.Visible = false;
+                label5.Visible = false;
+                label6.Visible = false;
+                label7.Visible = false;
+                label8.Visible = false;
+            }
+            else
+            {
+                textBox3.Visible = true;
+                textBox4.Visible = true;
+                textBox5.Visible = true;
+                textBox6.Visible = true;
+                textBox7.Visible = true;
+                textBox8.Visible = true;
+                label3.Visible = true;
+                label4.Visible = true;
+                label5.Visible = true;
+                label6.Visible = true;
+                label7.Visible = true;
+                label8.Visible = true;
+            }
+        }
     }
 }

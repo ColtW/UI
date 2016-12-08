@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using TeamBWindowsFormSignupPage;
 
 namespace TeamBWindowsFormLoginPage
 {
     public partial class LoginPage : Form
     {
+        
         public LoginPage()
         {
             InitializeComponent();
@@ -49,7 +51,13 @@ namespace TeamBWindowsFormLoginPage
             guestSignup.Visible = true;
             this.Visible = false;
 
-            UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer(); 
+            //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
+            
+            if () // still need to find a way to put 
+                //in the list from the other form somehow without screwing up everyone.
+            {
+
+            }
         }
     }
 }
