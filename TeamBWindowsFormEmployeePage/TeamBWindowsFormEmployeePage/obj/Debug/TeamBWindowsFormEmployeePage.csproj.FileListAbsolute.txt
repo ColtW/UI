@@ -7,3 +7,6 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePag
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb
 C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csprojResolveAssemblyReference.cache
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe.config
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb

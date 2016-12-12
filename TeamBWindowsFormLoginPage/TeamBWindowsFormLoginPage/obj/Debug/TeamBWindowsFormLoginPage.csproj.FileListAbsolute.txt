@@ -34,3 +34,6 @@ C:\Users\employmentservices\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindo
 C:\Users\employmentservices\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.LoginPage.resources
 C:\Users\employmentservices\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.Properties.Resources.resources
 C:\Users\employmentservices\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csproj.GenerateResource.Cache
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb

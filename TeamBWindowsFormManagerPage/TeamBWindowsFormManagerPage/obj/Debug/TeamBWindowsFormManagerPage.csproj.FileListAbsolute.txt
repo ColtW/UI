@@ -7,3 +7,12 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
 C:\Users\owner\Documents\Visual Studio 2015\Projects\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csprojResolveAssemblyReference.cache
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csprojResolveAssemblyReference.cache
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
+C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache

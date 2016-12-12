@@ -21,5 +21,6 @@ namespace TeamBWindowsFormManagerPage
         {
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
     }
 }
