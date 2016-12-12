@@ -22,3 +22,9 @@ C:\Users\Spencer\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCu
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.CustomerPage.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.Properties.Resources.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csproj.GenerateResource.Cache
