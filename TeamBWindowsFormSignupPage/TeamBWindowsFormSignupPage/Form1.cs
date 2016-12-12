@@ -53,8 +53,16 @@ namespace TeamBWindowsFormSignupPage
                 goBackToSignup.Activate();
                 goBackToSignup.Visible = true;
 
-                UIdll.CurrentParkingReservation newReservation = new CurrentParkingReservation();
-                newReservation.newReservation();
+                // Following code will add the customer and all their information to the customer database
+                SqlConnection connection = new SqlConnection();
+                connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
+                connection.Open();
+
+                using (SqlCommand addCustomer = connection.CreateCommand())
+                {
+                    addCustomer.CommandText = "insert into dbo.Customers values ('" + textBox1 + "," + textBox2 + "," + textBox3 + "," + textBox4 + ",," + textBox6 + "," + textBox8 + "," + textBox5 + "');";
+                    addCustomer.ExecuteNonQuery();
+                }
             }
             else
             {
@@ -80,15 +88,6 @@ namespace TeamBWindowsFormSignupPage
                     goBackToSignup.Activate();
                     goBackToSignup.Visible = true;
 
-                    SqlConnection connection = new SqlConnection();
-                    connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
-                    connection.Open();
-
-                    using (SqlCommand addCustomer = connection.CreateCommand())
-                    {
-                        addCustomer.CommandText = "insert into dbo.Customers values ('" + textBox1 + "," + textBox2 + "," + textBox3 + "," + textBox4 + ",," + textBox6 + "," + textBox7 + "," + textBox5 + "');";
-                        addCustomer.ExecuteNonQuery();
-                    }
                 }
                 else
                 {
