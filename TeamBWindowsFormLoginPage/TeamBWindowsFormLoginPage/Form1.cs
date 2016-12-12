@@ -25,7 +25,7 @@ namespace TeamBWindowsFormLoginPage
             headerBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        public void button2_Click(object sender, EventArgs e)
+        public void btnSignUp_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage signup = new TeamBWindowsFormSignupPage.SignupPage();
             signup.Activate();
@@ -36,7 +36,7 @@ namespace TeamBWindowsFormLoginPage
             newPerson.MakeRegisteredCustomer();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
            // if (textBox1.Text = true && textBox2.Text = true)
                 {
