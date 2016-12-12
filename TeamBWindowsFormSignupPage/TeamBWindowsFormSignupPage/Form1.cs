@@ -11,8 +11,11 @@ using TeamBWindowsFormSignupPage;
 using TeamBWindowsFormLoginPage;
 using UIdll;
 using System.IO;
-                //added a reference to the form but I belive this needs have a reference
-                 // to the UIdll  instead se we can use our classes in this form .SR
+using System.Data.Sql;
+using System.Data.SqlClient;
+
+//added a reference to the form but I belive this needs have a reference
+// to the UIdll  instead se we can use our classes in this form .SR
 
 namespace TeamBWindowsFormSignupPage
 {
@@ -40,11 +43,6 @@ namespace TeamBWindowsFormSignupPage
             newCustomer.email = textBox3.Text;
             newCustomer.creditCardNumber = textBox4.Text;
             newCustomer.plateNumber = textBox5.Text;
-
-            
-            
-
-
             newCustomer.MakeCustomer();
 
             if (textBox7.Text == textBox8.Text)
@@ -54,6 +52,9 @@ namespace TeamBWindowsFormSignupPage
                 this.Visible = false;
                 goBackToSignup.Activate();
                 goBackToSignup.Visible = true;
+
+                UIdll.CurrentParkingReservation newReservation = new CurrentParkingReservation();
+                newReservation.newReservation();
             }
             else
             {
@@ -78,6 +79,10 @@ namespace TeamBWindowsFormSignupPage
                     this.Visible = false;
                     goBackToSignup.Activate();
                     goBackToSignup.Visible = true;
+
+                    SqlConnection connection = new SqlConnection();
+                    connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
+                    connection.Open();
                 }
                 else
                 {
