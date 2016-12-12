@@ -51,6 +51,12 @@ namespace TeamBWindowsFormSignupPage
             if(checkBox1.Checked == true)
             {
                 guestList.Add(1);
+                Console.WriteLine(guestList);
+                foreach (var list in guestList)
+                {
+                    Console.WriteLine(list);
+                    Console.Read();
+                }
             }
 
         }
