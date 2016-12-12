@@ -53,6 +53,7 @@ namespace TeamBWindowsFormSignupPage
                 goBackToSignup.Activate();
                 goBackToSignup.Visible = true;
 
+                // Following code will add the customer and all their information to the customer database
                 SqlConnection connection = new SqlConnection();
                 connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
                 connection.Open();
