@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TeamBWindowsFormSignupPage;
 using TeamBWindowsFormLoginPage;
-using UIdll;     //added a reference to the form but I belive this needs have a reference
+using UIdll;
+using System.IO;
+                //added a reference to the form but I belive this needs have a reference
                  // to the UIdll  instead se we can use our classes in this form .SR
 
 namespace TeamBWindowsFormSignupPage
@@ -46,16 +48,13 @@ namespace TeamBWindowsFormSignupPage
 
             newCustomer.MakeCustomer();
 
-
-
             if(checkBox1.Checked == true)
             {
                 guestList.Add(1);
                 Console.WriteLine(guestList);
-                foreach (var list in guestList)
+                
                 {
-                    Console.WriteLine(list);
-                    Console.Read();
+                    MessageBox.Show(guestList.ToString());
                 }
             }
 

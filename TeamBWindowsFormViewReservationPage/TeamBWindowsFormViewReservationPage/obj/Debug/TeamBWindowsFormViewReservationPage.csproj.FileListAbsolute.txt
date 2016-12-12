@@ -7,3 +7,6 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormViewReserva
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.csproj.GenerateResource.Cache
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.exe
 c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe.config
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.pdb
