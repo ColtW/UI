@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UIdll;
 
 namespace TeamBWindowsFormManagerPage
 {
@@ -20,6 +21,14 @@ namespace TeamBWindowsFormManagerPage
         private void ManagerPage_Load(object sender, EventArgs e)
         {
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UIdll.CurrentParkingReservation searchReservation = new CurrentParkingReservation();
+            searchReservation.searchReservation();
+
+            //textBox1.Text = searchReservation.
         }
 
     }
