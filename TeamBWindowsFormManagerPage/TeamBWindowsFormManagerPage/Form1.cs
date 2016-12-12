@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UIdll;
+using System.Data.SqlClient;
+using System.Data.Sql;
 
 namespace TeamBWindowsFormManagerPage
 {
@@ -27,8 +29,8 @@ namespace TeamBWindowsFormManagerPage
         {
             UIdll.CurrentParkingReservation searchReservation = new CurrentParkingReservation();
             searchReservation.searchReservation();
-
-            //textBox1.Text = searchReservation.
+            
+            textBox1.Text = s
         }
 
     }
