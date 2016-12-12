@@ -44,7 +44,7 @@ namespace TeamBWindowsFormLoginPage
                 }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
             guestSignup.Activate();
@@ -53,7 +53,8 @@ namespace TeamBWindowsFormLoginPage
 
             //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
             
-            if () // still need to find a way to put 
+            //if () 
+                // still need to find a way to put 
                 //in the list from the other form somehow without screwing up everyone.
             {
 

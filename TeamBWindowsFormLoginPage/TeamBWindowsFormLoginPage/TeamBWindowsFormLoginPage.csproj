@@ -49,6 +49,7 @@
     </Reference>
     <Reference Include="UIdll">
       <HintPath>..\..\..\UIdll\UIdll\bin\Debug\UIdll.dll</HintPath>
+      <Private>True</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
