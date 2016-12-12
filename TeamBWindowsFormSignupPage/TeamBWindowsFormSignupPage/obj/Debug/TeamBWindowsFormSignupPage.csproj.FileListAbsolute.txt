@@ -23,3 +23,6 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignu
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csproj.GenerateResource.Cache
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormLoginPage.exe
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormLoginPage.pdb
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
