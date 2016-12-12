@@ -10,3 +10,6 @@ c:\users\owner\documents\visual studio 2015\Projects\TeamBWindowsFormViewReserva
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe.config
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.exe
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.pdb
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe.config
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.exe
+C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.pdb
