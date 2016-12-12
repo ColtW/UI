@@ -35,27 +35,64 @@ namespace TeamBWindowsFormSignupPage
         {
             // when button clicked this will save all of the text the EU has provided... Colin
             UIdll.RegisteredCustomer newCustomer = new UIdll.RegisteredCustomer();
-            newCustomer.username = textBox1.Text;
-            newCustomer.password = textBox2.Text;
+            newCustomer.username = textBox6.Text;
+            newCustomer.password = textBox7.Text;
             newCustomer.email = textBox3.Text;
             newCustomer.creditCardNumber = textBox4.Text;
             newCustomer.plateNumber = textBox5.Text;
 
-            this.Visible = false;
-            TeamBWindowsFormLoginPage.LoginPage goBackToSignup = new TeamBWindowsFormLoginPage.LoginPage();
-            goBackToSignup.Activate();
-            goBackToSignup.Visible = true;
+            
+            
+
 
             newCustomer.MakeCustomer();
 
-            if(checkBox1.Checked == true)
+            if (textBox7.Text == textBox8.Text)
+            {
+                newCustomer.password = textBox7.Text;
+                TeamBWindowsFormLoginPage.LoginPage goBackToSignup = new TeamBWindowsFormLoginPage.LoginPage();
+                this.Visible = false;
+                goBackToSignup.Activate();
+                goBackToSignup.Visible = true;
+            }
+            else
+            {
+                MessageBox.Show("Password verification failed.  Re-enter password.");
+                textBox7.Text = "";
+                textBox8.Text = "";
+            }
+
+            if (checkBox1.Checked == true)
             {
                 guestList.Add(1);
                 Console.WriteLine(guestList);
-                
+                UIdll.Customer guest = new UIdll.Customer();
+                guest.MakeCustomer();
+                guest.name = textBox1.Text + " " + textBox2.Text;
+                guest.username = textBox6.Text;
+
+                if (textBox7.Text == textBox8.Text)
                 {
-                    MessageBox.Show(guestList.ToString());
+                    guest.password = textBox7.Text;
+                    TeamBWindowsFormLoginPage.LoginPage goBackToSignup = new TeamBWindowsFormLoginPage.LoginPage();
+                    this.Visible = false;
+                    goBackToSignup.Activate();
+                    goBackToSignup.Visible = true;
                 }
+                else
+                {
+                    MessageBox.Show("Password verification failed.  Re-enter password.");
+                    textBox7.Text = "";
+                    textBox8.Text = "";
+
+                }
+
+                guest.email = textBox3.Text;
+                guest.creditCardNumber = textBox4.Text;
+                guest.plateNumber = textBox5.Text;
+
+                
+                //MessageBox.Show(guestList.ToString());
             }
 
         }
@@ -90,6 +127,7 @@ namespace TeamBWindowsFormSignupPage
                 label7.Visible = true;
                 label8.Visible = true;
             }
+
         }
     }
 }
