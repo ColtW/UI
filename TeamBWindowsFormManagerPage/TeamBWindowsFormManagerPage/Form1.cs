@@ -44,7 +44,17 @@ namespace TeamBWindowsFormManagerPage
 
         private void button5_Click(object sender, EventArgs e)
         {
+            UIdll.CurrentParkingReservation modifyReservation = new CurrentParkingReservation();
+            modifyReservation.reserveDate = textBox8.Text;
+            {
 
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            UIdll.CurrentParkingReservation deleteReservation = new CurrentParkingReservation();
+            deleteReservation.deleteReservation();
         }
     }
 }
