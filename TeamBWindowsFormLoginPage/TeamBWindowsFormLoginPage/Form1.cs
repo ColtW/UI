@@ -11,6 +11,8 @@ using System.IO;
 using TeamBWindowsFormSignupPage;
 using TeamBWindowsFormCustomerPage;
 using UIdll;
+using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace TeamBWindowsFormLoginPage
 {
