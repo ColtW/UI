@@ -22,3 +22,8 @@ C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindows
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.csproj.GenerateResource.Cache
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.exe
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\obj\Debug\TeamBWindowsFormViewReservationPage.pdb
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe.config
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.pdb
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb

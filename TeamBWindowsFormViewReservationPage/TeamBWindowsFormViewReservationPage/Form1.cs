@@ -87,6 +87,8 @@ namespace TeamBWindowsFormViewReservationPage
             DateTime startTime = DateTime.Now;
             DateTime endTime = DateTime.Now;
 
+            listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
+
             using (SqlCommand readAllNames = new SqlCommand())
             {
                 readAllNames.CommandText = "select * dbo.Customers;";
@@ -108,6 +110,16 @@ namespace TeamBWindowsFormViewReservationPage
                                 customer = reader.GetInt32(0);
                                 tryAgain = true;
                             }
+                            else
+                            {
+                                MessageBox.Show("The last name does not match anything in our database");
+                                tryAgain = false;
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("The first name does not match anything in our database");
+                            tryAgain = false;
                         }
                     }
                     while (tryAgain == true);
@@ -133,12 +145,16 @@ namespace TeamBWindowsFormViewReservationPage
                             startTime = reader.GetDateTime(3);
                             endTime = reader.GetDateTime(4);
                         }
+                        else
+                        {
+                            MessageBox.Show("There is not any reservations in our database with your account");
+                        }
                     }
                     while (tryAgain == true);
                 }
             }
 
-            listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
+            
             connection.Close();
         }
     }
