@@ -15,7 +15,7 @@ namespace TeamBWindowsFormLoginPage
 {
     public partial class LoginPage : Form
     {
-        
+
         public LoginPage()
         {
             InitializeComponent();
@@ -39,26 +39,24 @@ namespace TeamBWindowsFormLoginPage
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-           // if (textBox1.Text = true && textBox2.Text = true)
-                {
+            // if (textBox1.Text = true && textBox2.Text = true)
+            {
 
-                }
+            }
         }
 
         private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
-            
             guestSignup.Activate();
-            
             guestSignup.Visible = true;
             this.Visible = false;
 
             //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
-            
+
             //if () 
-                // still need to find a way to put 
-                //in the list from the other form somehow without screwing up everyone.
+            // still need to find a way to put 
+            //in the list from the other form somehow without screwing up everyone.
             {
 
             }
