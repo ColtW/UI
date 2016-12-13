@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.Sql;
+using TeamBWindowsFormCustomerPage;
 
 namespace TeamBWindowsFormViewReservationPage
 {
@@ -36,6 +37,25 @@ namespace TeamBWindowsFormViewReservationPage
         private void button1_Click(object sender, EventArgs e)
         {
             // goes to the customer windows form
+            string reservationIdChanging = "";
+            reservationIdChanging = textBox3.Text;
+            if(reservationIdChanging == reservationId.ToString())
+            {
+                if(radioButton1.Checked == true)
+                {
+                    TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
+                    customerPage.Activate();
+                    customerPage.Visible = true;
+                    this.Visible = false;
+                }
+                else if(radioButton2.Checked == true)
+                {
+                    using (SqlCommand deleteReservation = new SqlCommand())
+                    {
+                        deleteReservation.CommandText = "delete from dbo.Reservations where ReservationID = ;";
+                    }
+                }
+            }
         }
 
         int reservationId = 0;
@@ -50,7 +70,7 @@ namespace TeamBWindowsFormViewReservationPage
 
             using (SqlCommand readAllNames = new SqlCommand())
             {
-                readAllNames.CommandText = "select * dbo.Customers";
+                readAllNames.CommandText = "select * dbo.Customers;";
 
                 using (SqlDataReader reader = readAllNames.ExecuteReader())
                 {
@@ -77,7 +97,7 @@ namespace TeamBWindowsFormViewReservationPage
 
             using (SqlCommand readAllReservations = new SqlCommand())
             {
-                readAllReservations.CommandText = "select * dbo.Reservations";
+                readAllReservations.CommandText = "select * dbo.Reservations;";
 
                 using (SqlDataReader reader = readAllReservations.ExecuteReader())
                 {
@@ -102,6 +122,11 @@ namespace TeamBWindowsFormViewReservationPage
             listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
         }
 
+        public string listBoxOneSelected { get; set; };
 
+        //private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    listBoxOneSelected += listBox1.SelectedItem.ToString();
+        //}
     }
 }

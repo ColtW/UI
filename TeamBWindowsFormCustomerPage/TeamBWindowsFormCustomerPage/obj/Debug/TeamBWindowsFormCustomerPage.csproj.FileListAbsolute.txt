@@ -28,3 +28,6 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCus
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.CustomerPage.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.Properties.Resources.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.csproj.GenerateResource.Cache
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
