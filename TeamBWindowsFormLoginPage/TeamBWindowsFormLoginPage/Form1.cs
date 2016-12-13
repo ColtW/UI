@@ -43,7 +43,7 @@ namespace TeamBWindowsFormLoginPage
         private void btnLogin_Click(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection();
-            connection.ConnectionString = "Server=cis1.actx.edu;Database=project;User Id=db2;Password = db20;";
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
             connection.Open();
 
             using (SqlCommand readUsername = connection.CreateCommand())
