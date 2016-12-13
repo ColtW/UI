@@ -15,9 +15,7 @@ namespace TeamBWindowsFormViewReservationPage
 {
     public partial class ViewandModifyReservationsFrm : Form
     {
-        SqlConnection connection = new SqlConnection();
-        connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
-        connection.Open();
+        
 
         public ViewandModifyReservationsFrm()
         {
@@ -36,6 +34,10 @@ namespace TeamBWindowsFormViewReservationPage
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
+            connection.Open();
+
             // goes to the customer windows form
             string reservationIdChanging = "";
             reservationIdChanging = textBox3.Text;
@@ -52,21 +54,40 @@ namespace TeamBWindowsFormViewReservationPage
                 {
                     using (SqlCommand deleteReservation = new SqlCommand())
                     {
-                        deleteReservation.CommandText = "delete from dbo.Reservations where ReservationID = ;";
+                        deleteReservation.CommandText = "delete from dbo.Reservations where ReservationID = reservationIdChanging;";    
                     }
+
+                    TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
+                    customerPage.Activate();
+                    customerPage.Visible = true;
+                    this.Visible = false;
+                }
+                else
+                {
+                    TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
+                    customerPage.Activate();
+                    customerPage.Visible = true;
+                    this.Visible = false;
                 }
             }
+            connection.Close();
         }
 
         int reservationId = 0;
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
+            connection.Open();
+
             // would want to search for existing reservations that exist with this name
             int customer = 0;
-            DateTime date;
-            DateTime startTime;
-            DateTime endTime;
+            DateTime date = DateTime.Now;
+            DateTime startTime = DateTime.Now;
+            DateTime endTime = DateTime.Now;
+
+            listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
 
             using (SqlCommand readAllNames = new SqlCommand())
             {
@@ -89,6 +110,16 @@ namespace TeamBWindowsFormViewReservationPage
                                 customer = reader.GetInt32(0);
                                 tryAgain = true;
                             }
+                            else
+                            {
+                                MessageBox.Show("The last name does not match anything in our database");
+                                tryAgain = false;
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("The first name does not match anything in our database");
+                            tryAgain = false;
                         }
                     }
                     while (tryAgain == true);
@@ -114,19 +145,17 @@ namespace TeamBWindowsFormViewReservationPage
                             startTime = reader.GetDateTime(3);
                             endTime = reader.GetDateTime(4);
                         }
+                        else
+                        {
+                            MessageBox.Show("There is not any reservations in our database with your account");
+                        }
                     }
                     while (tryAgain == true);
                 }
             }
 
-            listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
+            
+            connection.Close();
         }
-
-        public string listBoxOneSelected { get; set; };
-
-        //private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    listBoxOneSelected += listBox1.SelectedItem.ToString();
-        //}
     }
 }
