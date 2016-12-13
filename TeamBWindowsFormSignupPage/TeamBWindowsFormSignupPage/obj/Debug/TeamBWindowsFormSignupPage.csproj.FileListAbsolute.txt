@@ -36,3 +36,5 @@ E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindo
 E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.SignupPage.resources
 E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.Properties.Resources.resources
 E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csproj.GenerateResource.Cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb

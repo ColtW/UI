@@ -60,7 +60,7 @@ namespace TeamBWindowsFormSignupPage
 
                 using (SqlCommand addCustomer = connection.CreateCommand())
                 {
-                    addCustomer.CommandText = "insert into dbo.Customers values ('" + textBox1 + "," + textBox2 + "," + textBox3 + "," + textBox4 + ",," + textBox6 + "," + textBox8 + "," + textBox5 + "');";
+                    addCustomer.CommandText = "insert into dbo.Customers values ('" + textBox1 + "," + textBox2 + "," + textBox3 + "," + textBox4 + "," + textBox6 + "," + textBox8 + "," + textBox5 + "');";
                     addCustomer.ExecuteNonQuery();
                 }
             }
@@ -102,29 +102,29 @@ namespace TeamBWindowsFormSignupPage
                 guest.plateNumber = textBox5.Text;
 
                 
-                //MessageBox.Show(guestList.ToString());
-                if(textBox1.Text != "")
-                {
-                    if(textBox2.Text != "")
-                    {
-                        if(textBox4.Text != "")
-                        {
-                            button1.Enabled = true;
-                        }
-                        else
-                        {
-                            MessageBox.Show("Please fill out necessary information.");
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show("Please fill out necessary information.");
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Please fill out necessary information.");
-                }
+            //    //MessageBox.Show(guestList.ToString());
+            //    if(textBox1.Text != "")
+            //    {
+            //        if(textBox2.Text != "")
+            //        {
+            //            if(textBox4.Text != "")
+            //            {
+            //                button1.Enabled = true;
+            //            }
+            //            else
+            //            {
+            //                MessageBox.Show("Please fill out necessary information.");
+            //            }
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show("Please fill out necessary information.");
+            //        }
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show("Please fill out necessary information.");
+            //    }
             }
 
         }
