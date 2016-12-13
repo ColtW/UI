@@ -39,3 +39,6 @@ C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\S
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormCustomerPage.exe
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
