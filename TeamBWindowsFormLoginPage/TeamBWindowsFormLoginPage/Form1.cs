@@ -42,13 +42,23 @@ namespace TeamBWindowsFormLoginPage
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            // if (textBox1.Text = true && textBox2.Text = true)
-            {
-                TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
-                loginSuccess.Activate();
-                loginSuccess.Visible = true;
-                this.Visible = false;
-            }
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = "Server=cis1.actx.edu;Database=project;User Id=db2;Password = db20;";
+            connection.Open();
+
+            using (SqlCommand readUsername = connection.CreateCommand())
+                 {
+                    SqlCommand readPassword = connection.CreateCommand();
+                    readUsername.CommandText = "select * from dbo.Customer where Username = " + textBox1;
+                    readPassword.CommandText = "select * from dbo.Customer where Password = " + textBox2;
+                if (readUsername.CommandText == textBox1.Text && readPassword.CommandText == textBox2.Text)
+                        {
+                             TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
+                             loginSuccess.Activate();
+                             loginSuccess.Visible = true;
+                             this.Visible = false;
+                        }
+                 }
         }
 
         private void btnGuestSignIn_Click(object sender, EventArgs e)
