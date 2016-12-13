@@ -83,9 +83,9 @@ namespace TeamBWindowsFormViewReservationPage
 
             // would want to search for existing reservations that exist with this name
             int customer = 0;
-            DateTime date;
-            DateTime startTime;
-            DateTime endTime;
+            DateTime date = DateTime.Now;
+            DateTime startTime = DateTime.Now;
+            DateTime endTime = DateTime.Now;
 
             using (SqlCommand readAllNames = new SqlCommand())
             {

@@ -32,3 +32,6 @@ E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWin
 E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
 E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
 E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
+C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
