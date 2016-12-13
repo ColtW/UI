@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using TeamBWindowsFormSignupPage;
+using TeamBWindowsFormCustomerPage;
 using UIdll;
 
 namespace TeamBWindowsFormLoginPage
@@ -41,7 +42,10 @@ namespace TeamBWindowsFormLoginPage
         {
             // if (textBox1.Text = true && textBox2.Text = true)
             {
-
+                TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
+                loginSuccess.Activate();
+                loginSuccess.Visible = true;
+                this.Visible = false;
             }
         }
 
