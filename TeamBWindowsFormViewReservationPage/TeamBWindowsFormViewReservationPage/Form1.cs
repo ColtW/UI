@@ -38,10 +38,15 @@ namespace TeamBWindowsFormViewReservationPage
             // goes to the customer windows form
         }
 
+        int reservationId = 0;
+
         private void button2_Click(object sender, EventArgs e)
         {
             // would want to search for existing reservations that exist with this name
             int customer = 0;
+            DateTime date;
+            DateTime startTime;
+            DateTime endTime;
 
             using (SqlCommand readAllNames = new SqlCommand())
             {
@@ -84,14 +89,19 @@ namespace TeamBWindowsFormViewReservationPage
                         customerId = reader.GetInt32(5);
                         if(customerId == customer)
                         {
-                            reader.GetDateTime(2);
-                            reader.GetDateTime(3);
-                            reader.GetDateTime(4);
+                            reservationId = reader.GetInt32(0);
+                            date = reader.GetDateTime(2);
+                            startTime = reader.GetDateTime(3);
+                            endTime = reader.GetDateTime(4);
                         }
                     }
                     while (tryAgain == true);
                 }
             }
+
+            listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
         }
+
+
     }
 }
