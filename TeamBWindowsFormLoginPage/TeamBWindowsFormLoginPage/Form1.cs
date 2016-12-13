@@ -48,7 +48,9 @@ namespace TeamBWindowsFormLoginPage
         private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
+            
             guestSignup.Activate();
+            
             guestSignup.Visible = true;
             this.Visible = false;
 
