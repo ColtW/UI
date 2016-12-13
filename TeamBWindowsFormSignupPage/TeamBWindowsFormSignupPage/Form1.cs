@@ -103,11 +103,33 @@ namespace TeamBWindowsFormSignupPage
 
                 
                 //MessageBox.Show(guestList.ToString());
+                if(textBox1.Text != "")
+                {
+                    if(textBox2.Text != "")
+                    {
+                        if(textBox4.Text != "")
+                        {
+                            button1.Enabled = true;
+                        }
+                        else
+                        {
+                            MessageBox.Show("Please fill out necessary information.");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Please fill out necessary information.");
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please fill out necessary information.");
+                }
             }
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        public void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
             if (checkBox1.Checked == true)
             {
