@@ -29,3 +29,10 @@ C:\Users\longh\Source\Repos\UI2\TeamBWindowsFormSignupPage\TeamBWindowsFormSignu
 C:\Users\Colin\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
 C:\Users\Colin\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
 C:\Users\Colin\Source\Repos\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe.config
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.exe
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.pdb
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csprojResolveAssemblyReference.cache
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.SignupPage.resources
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.Properties.Resources.resources
+E:\UI\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\obj\Debug\TeamBWindowsFormSignupPage.csproj.GenerateResource.Cache

@@ -25,3 +25,10 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormMana
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csprojResolveAssemblyReference.cache
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
+E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache

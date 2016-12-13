@@ -47,14 +47,16 @@
             this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.headerBox)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // headerBox
             // 
             this.headerBox.Image = global::TeamBWindowsFormCustomerPage.Properties.Resources.parkalot;
             this.headerBox.Location = new System.Drawing.Point(-1, -2);
-            this.headerBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.headerBox.Margin = new System.Windows.Forms.Padding(2);
             this.headerBox.Name = "headerBox";
             this.headerBox.Size = new System.Drawing.Size(398, 107);
             this.headerBox.TabIndex = 0;
@@ -76,7 +78,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 171);
+            this.label3.Location = new System.Drawing.Point(11, 171);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(277, 20);
@@ -87,27 +89,29 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(292, 169);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton1.Location = new System.Drawing.Point(0, 6);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(55, 24);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Yes";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(346, 171);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.radioButton2.Location = new System.Drawing.Point(57, 6);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(47, 24);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "No";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // label4
             // 
@@ -124,10 +128,11 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(270, 208);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(90, 26);
             this.textBox1.TabIndex = 7;
+           
             // 
             // label7
             // 
@@ -145,32 +150,35 @@
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Location = new System.Drawing.Point(72, 340);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(253, 26);
             this.dateTimePicker1.TabIndex = 11;
+           
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker2.Location = new System.Drawing.Point(91, 380);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.ShowUpDown = true;
             this.dateTimePicker2.Size = new System.Drawing.Size(111, 26);
             this.dateTimePicker2.TabIndex = 12;
+            
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(82, 423);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(222, 29);
             this.button1.TabIndex = 13;
             this.button1.Text = "Submit This Date and Times";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label8
             // 
@@ -188,7 +196,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox1.Location = new System.Drawing.Point(316, 473);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(56, 24);
             this.checkBox1.TabIndex = 15;
@@ -199,7 +207,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(57, 514);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(271, 29);
             this.button2.TabIndex = 16;
@@ -233,11 +241,12 @@
             this.dateTimePicker3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePicker3.Location = new System.Drawing.Point(284, 376);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.ShowUpDown = true;
             this.dateTimePicker3.Size = new System.Drawing.Size(111, 26);
             this.dateTimePicker3.TabIndex = 19;
+           
             // 
             // label6
             // 
@@ -250,6 +259,7 @@
             this.label6.Size = new System.Drawing.Size(93, 20);
             this.label6.TabIndex = 9;
             this.label6.Text = "                     ";
+           
             // 
             // label5
             // 
@@ -262,11 +272,22 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "This license plate number will\r\nbe used for  this reservation";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Location = new System.Drawing.Point(284, 167);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(104, 31);
+            this.groupBox1.TabIndex = 20;
+            this.groupBox1.TabStop = false;
+            // 
             // CustomerPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(399, 573);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dateTimePicker3);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label2);
@@ -281,16 +302,16 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.headerBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "CustomerPage";
             this.Text = "Customer Page";
             this.Load += new System.EventHandler(this.CustomerPage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.headerBox)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,6 +338,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
 
