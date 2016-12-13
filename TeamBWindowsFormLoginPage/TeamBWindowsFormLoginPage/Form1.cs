@@ -26,7 +26,7 @@ namespace TeamBWindowsFormLoginPage
             headerBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        public void btnSignUp_Click(object sender, EventArgs e)
+        private void btnSignUp_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage signup = new TeamBWindowsFormSignupPage.SignupPage();
             signup.Activate();
@@ -45,13 +45,17 @@ namespace TeamBWindowsFormLoginPage
                 }
         }
 
-        private void btnGuestSignIn_Click(object sender, EventArgs e)
+        public void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
-            
+           
             guestSignup.Activate();
+            // This here makes the check box true auto when clicked
+
+            guestSignup.checkBox1.Checked = true; // Auto check guest box.
             
             guestSignup.Visible = true;
+            
             this.Visible = false;
 
             //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
