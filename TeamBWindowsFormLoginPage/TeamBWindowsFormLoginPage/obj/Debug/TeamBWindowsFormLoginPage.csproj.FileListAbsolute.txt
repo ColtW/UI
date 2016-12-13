@@ -37,3 +37,10 @@ C:\Users\employmentservices\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindo
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
 C:\Users\employmentservices\Desktop\Colt's Homework\Programming\COSC2330\Final\Source\Repos\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\bin\Debug\TeamBWindowsFormLoginPage.exe.config
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.exe
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.pdb
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csprojResolveAssemblyReference.cache
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.LoginPage.resources
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.Properties.Resources.resources
+E:\UI\TeamBWindowsFormLoginPage\TeamBWindowsFormLoginPage\obj\Debug\TeamBWindowsFormLoginPage.csproj.GenerateResource.Cache
