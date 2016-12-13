@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using TeamBWindowsFormSignupPage;
+using TeamBWindowsFormCustomerPage;
 using UIdll;
 
 namespace TeamBWindowsFormLoginPage
 {
     public partial class LoginPage : Form
     {
-        
+
         public LoginPage()
         {
             InitializeComponent();
@@ -39,24 +40,28 @@ namespace TeamBWindowsFormLoginPage
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-           // if (textBox1.Text = true && textBox2.Text = true)
-                {
-
-                }
+            // if (textBox1.Text = true && textBox2.Text = true)
+            {
+                TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
+                loginSuccess.Activate();
+                loginSuccess.Visible = true;
+                this.Visible = false;
+            }
         }
 
         private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
             guestSignup.Activate();
+            guestSignup.checkBox1.Checked = true; // auto sets check true when guest is clicked...
             guestSignup.Visible = true;
             this.Visible = false;
 
             //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
-            
+
             //if () 
-                // still need to find a way to put 
-                //in the list from the other form somehow without screwing up everyone.
+            // still need to find a way to put 
+            //in the list from the other form somehow without screwing up everyone.
             {
 
             }

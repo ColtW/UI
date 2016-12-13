@@ -44,6 +44,10 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeamBWindowsFormCustomerPage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe</HintPath>
+    </Reference>
     <Reference Include="TeamBWindowsFormSignupPage">
       <HintPath>..\..\TeamBWindowsFormSignupPage\TeamBWindowsFormSignupPage\bin\Debug\TeamBWindowsFormSignupPage.exe</HintPath>
     </Reference>
