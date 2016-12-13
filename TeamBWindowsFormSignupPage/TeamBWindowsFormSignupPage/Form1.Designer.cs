@@ -293,7 +293,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBox8;
-        public System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
