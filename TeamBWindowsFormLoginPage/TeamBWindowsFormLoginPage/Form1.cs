@@ -15,7 +15,7 @@ namespace TeamBWindowsFormLoginPage
 {
     public partial class LoginPage : Form
     {
-        
+
         public LoginPage()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace TeamBWindowsFormLoginPage
             headerBox1.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void btnSignUp_Click(object sender, EventArgs e)
+        public void btnSignUp_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage signup = new TeamBWindowsFormSignupPage.SignupPage();
             signup.Activate();
@@ -39,30 +39,24 @@ namespace TeamBWindowsFormLoginPage
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-           // if (textBox1.Text = true && textBox2.Text = true)
-                {
+            // if (textBox1.Text = true && textBox2.Text = true)
+            {
 
-                }
+            }
         }
 
-        public void btnGuestSignIn_Click(object sender, EventArgs e)
+        private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
-           
             guestSignup.Activate();
-            // This here makes the check box true auto when clicked
-
-            guestSignup.checkBox1.Checked = true; // Auto check guest box.
-            
             guestSignup.Visible = true;
-            
             this.Visible = false;
 
             //UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
-            
+
             //if () 
-                // still need to find a way to put 
-                //in the list from the other form somehow without screwing up everyone.
+            // still need to find a way to put 
+            //in the list from the other form somehow without screwing up everyone.
             {
 
             }
