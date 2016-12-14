@@ -30,27 +30,26 @@
         {
             this.headerBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.radMembershipNumber = new System.Windows.Forms.RadioButton();
+            this.radReservationNumber = new System.Windows.Forms.RadioButton();
+            this.txtNumber = new System.Windows.Forms.TextBox();
+            this.lstInformation = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnCheckSpaces = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.headerBox)).BeginInit();
             this.SuspendLayout();
             // 
             // headerBox
             // 
             this.headerBox.Image = global::TeamBWindowsFormEmployeePage.Properties.Resources.parkalot;
-            this.headerBox.Location = new System.Drawing.Point(0, -1);
-            this.headerBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.headerBox.Location = new System.Drawing.Point(0, -2);
             this.headerBox.Name = "headerBox";
-            this.headerBox.Size = new System.Drawing.Size(398, 107);
+            this.headerBox.Size = new System.Drawing.Size(597, 165);
             this.headerBox.TabIndex = 0;
             this.headerBox.TabStop = false;
             // 
@@ -58,67 +57,61 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 125);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(50, 192);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 20);
+            this.label1.Size = new System.Drawing.Size(234, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Find Reservation By:";
             // 
-            // radioButton1
+            // radMembershipNumber
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(191, 130);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(157, 21);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Membership Number";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radMembershipNumber.AutoSize = true;
+            this.radMembershipNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radMembershipNumber.Location = new System.Drawing.Point(286, 200);
+            this.radMembershipNumber.Name = "radMembershipNumber";
+            this.radMembershipNumber.Size = new System.Drawing.Size(219, 29);
+            this.radMembershipNumber.TabIndex = 2;
+            this.radMembershipNumber.TabStop = true;
+            this.radMembershipNumber.Text = "Membership Number";
+            this.radMembershipNumber.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // radReservationNumber
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(191, 154);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(156, 21);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Reservation Number";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radReservationNumber.AutoSize = true;
+            this.radReservationNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radReservationNumber.Location = new System.Drawing.Point(286, 237);
+            this.radReservationNumber.Name = "radReservationNumber";
+            this.radReservationNumber.Size = new System.Drawing.Size(214, 29);
+            this.radReservationNumber.TabIndex = 3;
+            this.radReservationNumber.TabStop = true;
+            this.radReservationNumber.Text = "Reservation Number";
+            this.radReservationNumber.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtNumber
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(66, 150);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(76, 26);
-            this.textBox1.TabIndex = 4;
+            this.txtNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumber.Location = new System.Drawing.Point(99, 231);
+            this.txtNumber.Name = "txtNumber";
+            this.txtNumber.Size = new System.Drawing.Size(112, 35);
+            this.txtNumber.TabIndex = 4;
             // 
-            // listBox1
+            // lstInformation
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(17, 224);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(362, 68);
-            this.listBox1.TabIndex = 5;
+            this.lstInformation.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstInformation.FormattingEnabled = true;
+            this.lstInformation.ItemHeight = 25;
+            this.lstInformation.Location = new System.Drawing.Point(26, 345);
+            this.lstInformation.Name = "lstInformation";
+            this.lstInformation.Size = new System.Drawing.Size(541, 79);
+            this.lstInformation.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 195);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(26, 300);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(48, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "Date";
             // 
@@ -126,10 +119,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(70, 195);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(105, 300);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.Size = new System.Drawing.Size(92, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Start Time";
             // 
@@ -137,10 +129,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(137, 195);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(206, 300);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
+            this.label4.Size = new System.Drawing.Size(84, 20);
             this.label4.TabIndex = 8;
             this.label4.Text = "End Time";
             // 
@@ -148,10 +139,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(210, 195);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(315, 300);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(89, 13);
+            this.label5.Size = new System.Drawing.Size(126, 20);
             this.label5.TabIndex = 9;
             this.label5.Text = "Confirmation #";
             // 
@@ -159,55 +149,51 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(320, 195);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(480, 300);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 13);
+            this.label6.Size = new System.Drawing.Size(75, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "Space #";
             // 
-            // button1
+            // btnCheckSpaces
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(50, 314);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(190, 28);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Are Spaces Available?";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCheckSpaces.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCheckSpaces.Location = new System.Drawing.Point(75, 483);
+            this.btnCheckSpaces.Name = "btnCheckSpaces";
+            this.btnCheckSpaces.Size = new System.Drawing.Size(285, 43);
+            this.btnCheckSpaces.TabIndex = 11;
+            this.btnCheckSpaces.Text = "Are Spaces Available?";
+            this.btnCheckSpaces.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnClear
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(283, 314);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(56, 28);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(424, 483);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(84, 43);
+            this.btnClear.TabIndex = 12;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // EmployeePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 370);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(598, 569);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnCheckSpaces);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.lstInformation);
+            this.Controls.Add(this.txtNumber);
+            this.Controls.Add(this.radReservationNumber);
+            this.Controls.Add(this.radMembershipNumber);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.headerBox);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EmployeePage";
             this.Text = "Employee Page";
             this.Load += new System.EventHandler(this.EmployeePage_Load);
@@ -221,17 +207,17 @@
 
         private System.Windows.Forms.PictureBox headerBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.RadioButton radMembershipNumber;
+        private System.Windows.Forms.RadioButton radReservationNumber;
+        private System.Windows.Forms.TextBox txtNumber;
+        private System.Windows.Forms.ListBox lstInformation;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnCheckSpaces;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 

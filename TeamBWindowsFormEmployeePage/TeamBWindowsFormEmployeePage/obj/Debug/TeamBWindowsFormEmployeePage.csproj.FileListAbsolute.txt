@@ -28,3 +28,6 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmp
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.EmployeePage.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.Properties.Resources.resources
 C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csproj.GenerateResource.Cache
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe.config
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb
