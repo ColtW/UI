@@ -25,33 +25,33 @@ namespace TeamBWindowsFormManagerPage
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnFind_Click(object sender, EventArgs e)
         {
             
 
             UIdll.CurrentParkingReservation searchReservation = new CurrentParkingReservation();
 
-            searchReservation.reserveID = textBox13.Text;
+            searchReservation.reserveID = txtReservationId.Text;
             searchReservation.searchReservation();
 
-            textBox1.Text = searchReservation.confirmation;
-            textBox8.Text = searchReservation.reserveDate;
-            textBox9.Text = searchReservation.start;
-            textBox10.Text = searchReservation.end;
-            textBox3.Text = searchReservation.spaceNumber;
+            txtConfirmationId.Text = searchReservation.confirmation;
+            txtDate.Text = searchReservation.reserveDate;
+            txtStartTime.Text = searchReservation.start;
+            txtEndTime.Text = searchReservation.end;
+            txtLotNumber.Text = searchReservation.spaceNumber;
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btnModifyReservation_Click(object sender, EventArgs e)
         {
             UIdll.CurrentParkingReservation modifyReservation = new CurrentParkingReservation();
-            modifyReservation.reserveDate = textBox8.Text;
+            modifyReservation.reserveDate = txtDate.Text;
             {
 
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnDeleteReservation_Click(object sender, EventArgs e)
         {
             UIdll.CurrentParkingReservation deleteReservation = new CurrentParkingReservation();
             deleteReservation.deleteReservation();

@@ -13,13 +13,14 @@ namespace TeamBWindowsFormCustomerPage
 {
     public partial class CustomerPage : Form
     {
+
         public CustomerPage()
         {
             InitializeComponent();
             textBox1.Visible = false;
             label4.Visible = false;
 
-            label6.Visible = false;
+            textBox2.Visible = false;
             label5.Visible = false;
         }
 
@@ -37,7 +38,7 @@ namespace TeamBWindowsFormCustomerPage
             UIdll.CurrentParkingReservation makeReservation = new UIdll.CurrentParkingReservation();
 
             textBox1.Text = makeReservation.plateNumber;
-            label6.Text = makeReservation.plateNumber;
+            textBox2.Text = makeReservation.plateNumber;
 
             dateTimePicker1.Text = makeReservation.reserveDate;
             dateTimePicker2.Text = makeReservation.start;
@@ -52,7 +53,7 @@ namespace TeamBWindowsFormCustomerPage
             {
                 textBox1.Visible = true;
                 label4.Visible = true;
-                label6.Visible = false;
+                textBox2.Visible = false;
                 label5.Visible = false;
             }
         }
@@ -61,11 +62,16 @@ namespace TeamBWindowsFormCustomerPage
         {
             if (radioButton2.Checked)
             {
-                label6.Visible = true;
+                textBox2.Visible = true;
                 label5.Visible = true;
                 textBox1.Visible = false;
                 label4.Visible = false;
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

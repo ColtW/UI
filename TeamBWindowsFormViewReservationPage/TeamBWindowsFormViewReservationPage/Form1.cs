@@ -43,18 +43,20 @@ namespace TeamBWindowsFormViewReservationPage
             reservationIdChanging = textBox3.Text;
             if(reservationIdChanging == reservationId.ToString())
             {
-                if(radioButton1.Checked == true)
+                // if they want to extend their reservation time
+                if (radioButton1.Checked == true)
                 {
                     TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
                     customerPage.Activate();
                     customerPage.Visible = true;
                     this.Visible = false;
                 }
-                else if(radioButton2.Checked == true)
+                // if the want to cancel their reservation
+                else if (radioButton2.Checked == true)
                 {
                     using (SqlCommand deleteReservation = new SqlCommand())
                     {
-                        deleteReservation.CommandText = "delete from dbo.Reservations where ReservationID = reservationIdChanging;";    
+                        deleteReservation.CommandText = "delete from dbo.Reservations where ReservationID = " + reservationIdChanging + ";";
                     }
 
                     TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
@@ -62,6 +64,7 @@ namespace TeamBWindowsFormViewReservationPage
                     customerPage.Visible = true;
                     this.Visible = false;
                 }
+                // they dont select to extend or cancel, just going back to the customer form
                 else
                 {
                     TeamBWindowsFormCustomerPage.CustomerPage customerPage = new TeamBWindowsFormCustomerPage.CustomerPage();
@@ -75,6 +78,8 @@ namespace TeamBWindowsFormViewReservationPage
 
         int reservationId = 0;
 
+        // this method is to take the first name and last name you have given to find a customer that has
+        // a reservation that matches 
         private void button2_Click(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection();
@@ -89,6 +94,7 @@ namespace TeamBWindowsFormViewReservationPage
 
             listBox1.Items.Add(reservationId.ToString() + date.ToString() + startTime.ToString() + endTime.ToString());
 
+            // read all the names and check for them
             using (SqlCommand readAllNames = new SqlCommand())
             {
                 readAllNames.CommandText = "select * dbo.Customers;";
@@ -100,22 +106,28 @@ namespace TeamBWindowsFormViewReservationPage
                     string lastNameLibrary = "";
                     do
                     {
+                        // searching for the first name
                         reader.Read();
                         firstNameLibrary = reader.GetString(1);
                         if(firstNameLibrary == firstName.Text)
                         {
+                            // searching for the last name
                             lastNameLibrary = reader.GetString(2);
                             if(lastNameLibrary == lastName.Text)
                             {
+                                // the first and last names match with someone in the datatbase
+                                // and it will record their customer id
                                 customer = reader.GetInt32(0);
                                 tryAgain = true;
                             }
+                            // if it cannot find one with their last name
                             else
                             {
                                 MessageBox.Show("The last name does not match anything in our database");
                                 tryAgain = false;
                             }
                         }
+                        // if it cannot find one with their first name
                         else
                         {
                             MessageBox.Show("The first name does not match anything in our database");
@@ -126,6 +138,7 @@ namespace TeamBWindowsFormViewReservationPage
                 }
             }
 
+            // searches the reservations for one that exist with their customerID
             using (SqlCommand readAllReservations = new SqlCommand())
             {
                 readAllReservations.CommandText = "select * dbo.Reservations;";
@@ -136,15 +149,19 @@ namespace TeamBWindowsFormViewReservationPage
                     int customerId;
                     do
                     {
+                        // it will search for one that matches
                         reader.Read();
                         customerId = reader.GetInt32(5);
                         if(customerId == customer)
                         {
+                            // the customerID has matched with the one in reservations, so it will pull information
+                            // from the database
                             reservationId = reader.GetInt32(0);
                             date = reader.GetDateTime(2);
                             startTime = reader.GetDateTime(3);
                             endTime = reader.GetDateTime(4);
                         }
+                        // it could not find one that matches with your customerID
                         else
                         {
                             MessageBox.Show("There is not any reservations in our database with your account");

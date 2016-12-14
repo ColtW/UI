@@ -21,5 +21,10 @@ namespace TeamBWindowsFormEmployeePage
         {
             headerBox.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtNumber.Text = "";
+        }
     }
 }

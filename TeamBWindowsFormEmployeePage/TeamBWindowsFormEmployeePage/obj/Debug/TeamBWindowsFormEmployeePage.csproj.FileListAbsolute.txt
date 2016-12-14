@@ -19,3 +19,15 @@ E:\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBW
 E:\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.EmployeePage.resources
 E:\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.Properties.Resources.resources
 E:\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csproj.GenerateResource.Cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe.config
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csprojResolveAssemblyReference.cache
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.EmployeePage.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.Properties.Resources.resources
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.csproj.GenerateResource.Cache
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\bin\Debug\TeamBWindowsFormEmployeePage.exe.config
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.exe
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormEmployeePage\TeamBWindowsFormEmployeePage\obj\Debug\TeamBWindowsFormEmployeePage.pdb
