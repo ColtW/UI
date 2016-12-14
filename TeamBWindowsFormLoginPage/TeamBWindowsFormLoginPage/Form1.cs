@@ -39,6 +39,8 @@ namespace TeamBWindowsFormLoginPage
             UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
             newPerson.MakeRegisteredCustomer();
         }
+        string user = "";
+        string pass = "";
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -49,12 +51,16 @@ namespace TeamBWindowsFormLoginPage
             //login check
 
             //SqlCommand readUsername = connection.CreateCommand();
-            SqlCommand readUsername = new SqlCommand();
-            //SqlCommand readPassword = connection.CreateCommand();
-            SqlCommand readPassword = new SqlCommand();
-                    readUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
-                    readPassword.CommandText = "select * from dbo.Customer where Password = '" + textBox2.Text + "'";
-                if (readUsername.CommandText == textBox1.Text && readPassword.CommandText == textBox2.Text)
+            SqlCommand findUsername = new SqlCommand();
+
+                    findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+            using (SqlDataReader reader = findUsername.ExecuteReader())
+            {
+               
+                user = reader.GetString(5);
+                pass = reader.GetString(6);
+            }
+                if (user == textBox1.Text && pass == textBox2.Text)
                         {
                              TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
                              loginSuccess.Activate();
