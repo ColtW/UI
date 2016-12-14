@@ -35,3 +35,14 @@ E:\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWin
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe.config
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.exe
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csprojResolveAssemblyReference.cache
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.ManagerPage.resources
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.Properties.Resources.resources
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\obj\Debug\TeamBWindowsFormManagerPage.csproj.GenerateResource.Cache
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.exe
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\TeamBWindowsFormManagerPage.pdb
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\UIdll.dll
+C:\Users\Kosoumi\Source\Repos\UI\TeamBWindowsFormManagerPage\TeamBWindowsFormManagerPage\bin\Debug\UIdll.pdb
