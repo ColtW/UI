@@ -46,9 +46,12 @@ namespace TeamBWindowsFormLoginPage
             connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
             connection.Open();
 
-            using (SqlCommand readUsername = connection.CreateCommand())
-                 {
-                    SqlCommand readPassword = connection.CreateCommand();
+            //login check
+
+            //SqlCommand readUsername = connection.CreateCommand();
+            SqlCommand readUsername = new SqlCommand();
+            //SqlCommand readPassword = connection.CreateCommand();
+            SqlCommand readPassword = new SqlCommand();
                     readUsername.CommandText = "select * from dbo.Customer where Username = " + textBox1;
                     readPassword.CommandText = "select * from dbo.Customer where Password = " + textBox2;
                 if (readUsername.CommandText == textBox1.Text && readPassword.CommandText == textBox2.Text)
@@ -58,7 +61,11 @@ namespace TeamBWindowsFormLoginPage
                              loginSuccess.Visible = true;
                              this.Visible = false;
                         }
-                 }
+            else
+            {
+                MessageBox.Show("Incorrect credentials, try again.");
+            }
+                 
         }
 
         private void btnGuestSignIn_Click(object sender, EventArgs e)
@@ -74,9 +81,6 @@ namespace TeamBWindowsFormLoginPage
             //if () 
             // still need to find a way to put 
             //in the list from the other form somehow without screwing up everyone.
-            {
-
-            }
         }
     }
 }
