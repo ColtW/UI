@@ -39,9 +39,14 @@ namespace TeamBWindowsFormLoginPage
             UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
             newPerson.MakeRegisteredCustomer();
         }
+
+        // Following are fields to store the user's input for username and password on the form
         string user = "";
         string pass = "";
 
+        // when the login button is pushed it will search the database by username
+        // then read the username and password for that record and move on if they match
+        // the input or give an error if they do not match.
         private void btnLogin_Click(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection();
@@ -52,11 +57,15 @@ namespace TeamBWindowsFormLoginPage
 
             using (SqlCommand findUsername = connection.CreateCommand())
             {
-                findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+                findUsername.CommandText = "select * from dbo.Customers where Username = '" + textBox1.Text + "'";
                 using (SqlDataReader reader = findUsername.ExecuteReader())
                 {
-                    user = reader.GetString(5);
-                    pass = reader.GetString(6);
+                    while(reader.Read())
+                    {
+                        user = reader.GetString(5);
+                        pass = reader.GetString(6);
+                    }
+                    
                 }
             }
 

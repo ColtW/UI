@@ -68,7 +68,7 @@ namespace TeamBWindowsFormSignupPage
                         + int.Parse(txtCreditCard.Text) + "','" 
                         + txtUsername.Text + "','"
                         + txtPassword.Text + "',"
-                        + txtLicensePlate.Text + ");";
+                        + txtLicensePlate.Text + "');";
                     addCustomer.ExecuteNonQuery();
                 }
             }
