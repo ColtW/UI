@@ -52,8 +52,8 @@ namespace TeamBWindowsFormLoginPage
             SqlCommand readUsername = new SqlCommand();
             //SqlCommand readPassword = connection.CreateCommand();
             SqlCommand readPassword = new SqlCommand();
-                    readUsername.CommandText = "select * from dbo.Customer where Username = " + textBox1;
-                    readPassword.CommandText = "select * from dbo.Customer where Password = " + textBox2;
+                    readUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+                    readPassword.CommandText = "select * from dbo.Customer where Password = '" + textBox2.Text + "'";
                 if (readUsername.CommandText == textBox1.Text && readPassword.CommandText == textBox2.Text)
                         {
                              TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
