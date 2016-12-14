@@ -31,3 +31,5 @@ C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCus
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\TeamBWindowsFormCustomerPage.exe.config
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.exe
 C:\Users\Josiah\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\obj\Debug\TeamBWindowsFormCustomerPage.pdb
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\UIdll.dll
+C:\Users\monkey\Source\Repos\UI\TeamBWindowsFormCustomerPage\TeamBWindowsFormCustomerPage\bin\Debug\UIdll.pdb
