@@ -60,7 +60,7 @@ namespace TeamBWindowsFormSignupPage
 
                 using (SqlCommand addCustomer = connection.CreateCommand())
                 {
-                    addCustomer.CommandText = "insert into dbo.Customers values ('" + textBox1 + "," + textBox2 + "," + textBox3 + "," + textBox4 + "," + textBox6 + "," + textBox8 + "," + textBox5 + "');";
+                    addCustomer.CommandText = "insert into dbo.Customers (FirstName, LastName, EmailAddress, CreditCardNumber, Username, Password) values ('" + textBox1.Text + "," + textBox2.Text + "," + textBox3.Text + "," + int.Parse(textBox4.Text) + "," + textBox6.Text + "," + textBox5.Text + "');";
                     addCustomer.ExecuteNonQuery();
                 }
             }
