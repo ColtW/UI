@@ -72,7 +72,7 @@ namespace TeamBWindowsFormLoginPage
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
             guestSignup.Activate();
-            guestSignup.checkBox1.Checked = true; // auto sets check true when guest is clicked...
+            guestSignup.chkIfGuest.Checked = true; // auto sets check true when guest is clicked...
             guestSignup.Visible = true;
             this.Visible = false;
 
