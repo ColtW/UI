@@ -52,11 +52,15 @@ namespace TeamBWindowsFormLoginPage
 
             using (SqlCommand findUsername = connection.CreateCommand())
             {
-                findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+                findUsername.CommandText = "select * from dbo.Customers where Username = '" + textBox1.Text + "'";
                 using (SqlDataReader reader = findUsername.ExecuteReader())
                 {
-                    user = reader.GetString(5);
-                    pass = reader.GetString(6);
+                    while(reader.Read())
+                    {
+                        user = reader.GetString(5);
+                        pass = reader.GetString(6);
+                    }
+                    
                 }
             }
 
