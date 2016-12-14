@@ -34,20 +34,20 @@ namespace TeamBWindowsFormSignupPage
         }
 
 
-        public void button1_Click(object sender, EventArgs e)
+        public void btnSignUp_Click(object sender, EventArgs e)
         {
             // when button clicked this will save all of the text the EU has provided... Colin
             UIdll.RegisteredCustomer newCustomer = new UIdll.RegisteredCustomer();
-            newCustomer.username = textBox6.Text;
-            newCustomer.password = textBox7.Text;
-            newCustomer.email = textBox3.Text;
-            newCustomer.creditCardNumber = textBox4.Text;
-            newCustomer.plateNumber = textBox5.Text;
+            newCustomer.username = txtUsername.Text;
+            newCustomer.password = txtPassword.Text;
+            newCustomer.email = txtEmail.Text;
+            newCustomer.creditCardNumber = txtCreditCard.Text;
+            newCustomer.plateNumber = txtLicensePlate.Text;
             newCustomer.MakeCustomer();
 
-            if (textBox7.Text == textBox8.Text)
+            if (txtPassword.Text == txtConfirmPassword.Text)
             {
-                newCustomer.password = textBox7.Text;
+                newCustomer.password = txtPassword.Text;
                 TeamBWindowsFormLoginPage.LoginPage goBackToSignup = new TeamBWindowsFormLoginPage.LoginPage();
                 this.Visible = false;
                 goBackToSignup.Activate();
@@ -60,29 +60,37 @@ namespace TeamBWindowsFormSignupPage
 
                 using (SqlCommand addCustomer = connection.CreateCommand())
                 {
-                    addCustomer.CommandText = "insert into dbo.Customers (FirstName, LastName, EmailAddress, CreditCardNumber, Username, Password) values ('" + textBox1.Text + "," + textBox2.Text + "," + textBox3.Text + "," + int.Parse(textBox4.Text) + "," + textBox6.Text + "," + textBox5.Text + "');";
+
+                    addCustomer.CommandText = "insert into dbo.Customers (FirstName, LastName, EmailAddress, CreditCardNumber, Username, Password, LicensePlateNumber) values ('" 
+                        + txtFirstName.Text + "','" 
+                        + txtLastName.Text + "','" 
+                        + txtEmail.Text + "','" 
+                        + int.Parse(txtCreditCard.Text) + "','" 
+                        + txtUsername.Text + "','"
+                        + txtPassword.Text + "',"
+                        + txtLicensePlate.Text + ");";
                     addCustomer.ExecuteNonQuery();
                 }
             }
             else
             {
                 MessageBox.Show("Password verification failed.  Re-enter password.");
-                textBox7.Text = "";
-                textBox8.Text = "";
+                txtPassword.Text = "";
+                txtConfirmPassword.Text = "";
             }
 
-            if (checkBox1.Checked == true)
+            if (chkIfGuest.Checked == true)
             {
                 guestList.Add(1);
                 Console.WriteLine(guestList);
                 UIdll.Customer guest = new UIdll.Customer();
                 guest.MakeCustomer();
-                guest.name = textBox1.Text + " " + textBox2.Text;
-                guest.username = textBox6.Text;
+                guest.name = txtFirstName.Text + " " + txtLastName.Text;
+                guest.username = txtUsername.Text;
 
-                if (textBox7.Text == textBox8.Text)
+                if (txtPassword.Text == txtConfirmPassword.Text)
                 {
-                    guest.password = textBox7.Text;
+                    guest.password = txtPassword.Text;
                     TeamBWindowsFormLoginPage.LoginPage goBackToSignup = new TeamBWindowsFormLoginPage.LoginPage();
                     this.Visible = false;
                     goBackToSignup.Activate();
@@ -92,14 +100,14 @@ namespace TeamBWindowsFormSignupPage
                 else
                 {
                     MessageBox.Show("Password verification failed.  Re-enter password.");
-                    textBox7.Text = "";
-                    textBox8.Text = "";
+                    txtPassword.Text = "";
+                    txtConfirmPassword.Text = "";
 
                 }
 
-                guest.email = textBox3.Text;
-                guest.creditCardNumber = textBox4.Text;
-                guest.plateNumber = textBox5.Text;
+                guest.email = txtEmail.Text;
+                guest.creditCardNumber = txtCreditCard.Text;
+                guest.plateNumber = txtLicensePlate.Text;
 
                 
             //    //MessageBox.Show(guestList.ToString());
@@ -129,15 +137,15 @@ namespace TeamBWindowsFormSignupPage
 
         }
 
-        public void checkBox1_CheckedChanged(object sender, EventArgs e)
+        public void chkIfGuest_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
+            if (chkIfGuest.Checked == true)
             {
-                textBox3.Visible = false;
-                textBox5.Visible = false;
-                textBox6.Visible = false;
-                textBox7.Visible = false;
-                textBox8.Visible = false;
+                txtEmail.Visible = false;
+                txtLicensePlate.Visible = false;
+                txtUsername.Visible = false;
+                txtPassword.Visible = false;
+                txtConfirmPassword.Visible = false;
                 label3.Visible = false;
                 label5.Visible = false;
                 label6.Visible = false;
@@ -146,12 +154,12 @@ namespace TeamBWindowsFormSignupPage
             }
             else
             {
-                textBox3.Visible = true;
-                textBox4.Visible = true;
-                textBox5.Visible = true;
-                textBox6.Visible = true;
-                textBox7.Visible = true;
-                textBox8.Visible = true;
+                txtEmail.Visible = true;
+                txtCreditCard.Visible = true;
+                txtLicensePlate.Visible = true;
+                txtUsername.Visible = true;
+                txtPassword.Visible = true;
+                txtConfirmPassword.Visible = true;
                 label3.Visible = true;
                 label4.Visible = true;
                 label5.Visible = true;

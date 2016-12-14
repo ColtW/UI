@@ -39,6 +39,8 @@ namespace TeamBWindowsFormLoginPage
             UIdll.RegisteredCustomer newPerson = new UIdll.RegisteredCustomer();
             newPerson.MakeRegisteredCustomer();
         }
+        string user = "";
+        string pass = "";
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -46,26 +48,37 @@ namespace TeamBWindowsFormLoginPage
             connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password = db20;";
             connection.Open();
 
-            using (SqlCommand readUsername = connection.CreateCommand())
-                 {
-                    SqlCommand readPassword = connection.CreateCommand();
-                    readUsername.CommandText = "select * from dbo.Customer where Username = " + textBox1;
-                    readPassword.CommandText = "select * from dbo.Customer where Password = " + textBox2;
-                if (readUsername.CommandText == textBox1.Text && readPassword.CommandText == textBox2.Text)
+            //login check
+
+            using (SqlCommand findUsername = connection.CreateCommand())
+            {
+                findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+                using (SqlDataReader reader = findUsername.ExecuteReader())
+                {
+                    user = reader.GetString(5);
+                    pass = reader.GetString(6);
+                }
+            }
+
+                if (user == textBox1.Text && pass == textBox2.Text)
                         {
                              TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
                              loginSuccess.Activate();
                              loginSuccess.Visible = true;
                              this.Visible = false;
                         }
-                 }
+            else
+            {
+                MessageBox.Show("Incorrect credentials, try again.");
+            }
+                 
         }
 
         private void btnGuestSignIn_Click(object sender, EventArgs e)
         {
             TeamBWindowsFormSignupPage.SignupPage guestSignup = new TeamBWindowsFormSignupPage.SignupPage();
             guestSignup.Activate();
-            guestSignup.checkBox1.Checked = true; // auto sets check true when guest is clicked...
+            guestSignup.chkIfGuest.Checked = true; // auto sets check true when guest is clicked...
             guestSignup.Visible = true;
             this.Visible = false;
 
@@ -74,9 +87,6 @@ namespace TeamBWindowsFormLoginPage
             //if () 
             // still need to find a way to put 
             //in the list from the other form somehow without screwing up everyone.
-            {
-
-            }
         }
     }
 }
