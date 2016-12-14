@@ -13,6 +13,7 @@ namespace TeamBWindowsFormCustomerPage
 {
     public partial class CustomerPage : Form
     {
+        string plateNumber { get; set; }
 
         public CustomerPage()
         {
@@ -35,16 +36,12 @@ namespace TeamBWindowsFormCustomerPage
         //I Added this SJR.
         private void button1_Click(object sender, EventArgs e)
         {
+            string date = dateTimePicker1.Value.ToString();
+            string startTime = dateTimePicker2.Value.ToString();
+            string endTime = dateTimePicker3.Value.ToString();
+            
             UIdll.CurrentParkingReservation makeReservation = new UIdll.CurrentParkingReservation();
-
-            textBox1.Text = makeReservation.plateNumber;
-            textBox2.Text = makeReservation.plateNumber;
-
-            dateTimePicker1.Text = makeReservation.reserveDate;
-            dateTimePicker2.Text = makeReservation.start;
-            dateTimePicker3.Text = makeReservation.end;
-
-
+            makeReservation.newReservation(date, startTime, endTime, plateNumber);
         }
         //I added This SJR.
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -55,6 +52,7 @@ namespace TeamBWindowsFormCustomerPage
                 label4.Visible = true;
                 textBox2.Visible = false;
                 label5.Visible = false;
+                plateNumber = textBox2.Text;
             }
         }
 
@@ -66,6 +64,7 @@ namespace TeamBWindowsFormCustomerPage
                 label5.Visible = true;
                 textBox1.Visible = false;
                 label4.Visible = false;
+                plateNumber = textBox2.Text;
             }
         }
 
