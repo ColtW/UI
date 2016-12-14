@@ -44,6 +44,12 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="TeamBWindowsFormViewReservationPage">
+      <HintPath>..\..\TeamBWindowsFormViewReservationPage\TeamBWindowsFormViewReservationPage\bin\Debug\TeamBWindowsFormViewReservationPage.exe</HintPath>
+    </Reference>
+    <Reference Include="UIdll">
+      <HintPath>..\..\..\UIdll\UIdll\bin\Debug\UIdll.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
