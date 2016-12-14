@@ -50,16 +50,16 @@ namespace TeamBWindowsFormLoginPage
 
             //login check
 
-            //SqlCommand readUsername = connection.CreateCommand();
-            SqlCommand findUsername = new SqlCommand();
-
-                    findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
-            using (SqlDataReader reader = findUsername.ExecuteReader())
+            using (SqlCommand findUsername = connection.CreateCommand())
             {
-               
-                user = reader.GetString(5);
-                pass = reader.GetString(6);
+                findUsername.CommandText = "select * from dbo.Customer where Username = '" + textBox1.Text + "'";
+                using (SqlDataReader reader = findUsername.ExecuteReader())
+                {
+                    user = reader.GetString(5);
+                    pass = reader.GetString(6);
+                }
             }
+
                 if (user == textBox1.Text && pass == textBox2.Text)
                         {
                              TeamBWindowsFormCustomerPage.CustomerPage loginSuccess = new CustomerPage();
