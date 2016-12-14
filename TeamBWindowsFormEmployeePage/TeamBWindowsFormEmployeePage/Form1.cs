@@ -38,6 +38,18 @@ namespace TeamBWindowsFormEmployeePage
             //    readReservations.CommandText = "select * fromdbo.Reservations where CustomerID = '" + txtNumber.Text + "';";
 
             //}
+
+            public void searchReservation()
+        //{
+        //    connection.Open()
+        //        using (SqlCommand searchID = connection.CreateCommand())
+        //    {
+        //        connection.ConnectionString = "Server=cis1.actx.edu;Database=project2;User Id=db2;Password=db20;";
+        //        searchID.CommandText = "select * fromdbo.Reservations where ReservationConfirmationNumber = '" + txtNumber.Text + "';";
+        //    }
+        //}
+
+
         }
     }
 }
